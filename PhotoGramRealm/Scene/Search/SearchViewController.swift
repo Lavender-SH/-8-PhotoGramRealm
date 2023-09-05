@@ -24,7 +24,7 @@ class SearchViewController: BaseViewController {
         view.collectionViewLayout = collectionViewLayout()
         return view
     }()
-
+//
     var didSelectItemHandler: ((String) -> Void)?
     
     private var imageList: Photo = Photo(total: 0, total_pages: 0, results: [])
